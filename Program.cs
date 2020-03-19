@@ -31,12 +31,12 @@ namespace in_ra_chuoi_cac_so_nguyen_to
             }
             Console.ReadKey();
         }
-        static int check1(int a)
+        static int check1(int so)
         {
             int dem = 0;
-            for (int i=1 ; i<=a ; i++)
+            for (int i=1 ; i<=so ; i++)
             {
-                if (a % i == 0)
+                if (so % i == 0)
                 {
                     dem++;
                 }
