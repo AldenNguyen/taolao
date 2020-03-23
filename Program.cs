@@ -25,6 +25,7 @@ namespace in_ra_chuoi_cac_so_nguyen_to
                 {
                     if (check1(i) == 2)
                     {
+						
                         System.Console.WriteLine(i);
                     }
                 }
